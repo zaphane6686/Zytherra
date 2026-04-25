@@ -13,4 +13,5 @@ namespace lumina
 	class GraphicsEngine;
 
 	class Logger;
+	class Surface;
 }

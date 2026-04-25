@@ -29,4 +29,9 @@ namespace lumina
 		Logger::LogLevel logLevel = Logger::LogLevel::Error;
 	};
 
+	struct SurfaceDesc
+	{
+		BaseDesc base;
+	};
+
 }

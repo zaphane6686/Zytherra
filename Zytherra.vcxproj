@@ -146,13 +146,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="LuminaEngine\Source\Vulkan\Core\Logger.cpp" />
+    <ClCompile Include="LuminaEngine\Source\Vulkan\Game\Win32\Win32Game.cpp" />
     <ClCompile Include="LuminaEngine\Source\Vulkan\Graphics\GraphicsEngine.cpp" />
     <ClCompile Include="LuminaEngine\Source\Vulkan\Game\Game.cpp" />
     <ClCompile Include="LuminaEngine\Source\Vulkan\Core\Base.cpp" />
-    <ClCompile Include="LuminaEngine\Source\Vulkan\Game\Win32\Win32Game.cpp" />
     <ClCompile Include="Main\main.cpp" />
     <ClCompile Include="LuminaEngine\Source\Vulkan\Window\Win32\Win32Window.cpp" />
     <ClCompile Include="LuminaEngine\Source\Vulkan\Graphics\RenderSystem.cpp" />
+    <ClCompile Include="LuminaEngine\Source\Vulkan\Graphics\Surface.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LuminaEngine\Include\Vulkan\Core\Common.h" />
@@ -165,6 +166,7 @@
     <ClInclude Include="LuminaEngine\Include\Vulkan\Window\Window.h" />
     <ClInclude Include="LuminaEngine\Source\Vulkan\Graphics\GraphicsLogUtils.h" />
     <ClInclude Include="LuminaEngine\Source\Vulkan\Graphics\RenderSystem.h" />
+    <ClInclude Include="LuminaEngine\Source\Vulkan\Graphics\Surface.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
