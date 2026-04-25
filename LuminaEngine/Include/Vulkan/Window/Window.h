@@ -1,6 +1,7 @@
 #pragma once
 #include <Vulkan/Core/Base.h>
 #include <Vulkan/Core/Common.h>
+#include <Windows.h>
 
 namespace lumina
 {

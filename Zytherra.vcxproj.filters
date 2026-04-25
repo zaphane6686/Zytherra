@@ -39,7 +39,7 @@
     <ClCompile Include="LuminaEngine\Source\Vulkan\Game\Win32\Win32Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LuminaEngine\Source\Vulkan\Graphics\Surface.cpp">
+    <ClCompile Include="LuminaEngine\Source\Vulkan\Graphics\SwapChain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -74,7 +74,10 @@
     <ClInclude Include="LuminaEngine\Source\Vulkan\Graphics\GraphicsLogUtils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="LuminaEngine\Source\Vulkan\Graphics\Surface.h">
+    <ClInclude Include="LuminaEngine\Source\Vulkan\Graphics\SwapChain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LuminaEngine\Source\Vulkan\Graphics\GraphicsResource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
