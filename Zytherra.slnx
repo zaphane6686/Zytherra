@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Zytherra.vcxproj" Id="3a79464d-be95-492a-b9df-d484fb1ce893" />
+</Solution>
