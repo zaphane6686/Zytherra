@@ -10,12 +10,12 @@ lumina::Game::Game(const GameDesc& desc) :
 	m_graphicsEngine = std::make_unique<GraphicsEngine>(GraphicsEngineDesc{m_logger});
 	m_display = std::make_unique<Window>(WindowDesc{m_logger});
 
-	m_loggerPtr->log(Logger::LogLevel::Info, "Game initialized.");
+	LuminaLogInfo("Game initialized.");
 }
 
 lumina::Game::~Game()
 {
-	m_loggerPtr->log(Logger::LogLevel::Info, "Game deallocation started.");
+	LuminaLogInfo("Game deallocation started.");
 }
 
 

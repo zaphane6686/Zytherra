@@ -163,6 +163,7 @@
     <ClInclude Include="LuminaEngine\Include\Vulkan\Game\Game.h" />
     <ClInclude Include="LuminaEngine\Include\Vulkan\Core\Base.h" />
     <ClInclude Include="LuminaEngine\Include\Vulkan\Window\Window.h" />
+    <ClInclude Include="LuminaEngine\Source\Vulkan\Graphics\GraphicsLogUtils.h" />
     <ClInclude Include="LuminaEngine\Source\Vulkan\Graphics\RenderSystem.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

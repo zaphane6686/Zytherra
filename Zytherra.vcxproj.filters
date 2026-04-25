@@ -68,5 +68,8 @@
     <ClInclude Include="LuminaEngine\Include\Vulkan\Core\Common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="LuminaEngine\Source\Vulkan\Graphics\GraphicsLogUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

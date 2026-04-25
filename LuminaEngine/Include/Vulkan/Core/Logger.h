@@ -17,5 +17,21 @@ namespace lumina
 	private:
 		LogLevel m_logLevel = LogLevel::Error;
 	};
+
+#define LuminaLogInfo(message) \
+	getLogger().log((Logger::LogLevel::Info), message);
+
+#define LuminaLogWarning(message) \
+	getLogger().log((Logger::LogLevel::Warning), message);
+
+#define LuminaLogError(message) \
+	getLogger().log((Logger::LogLevel::Error), message);
+	
+#define LuminaLogErrorAndThrow(message) \
+	{\
+	LuminaLogError(message);\
+	throw std::runtime_error(message);\
+	}
+
 }
 
