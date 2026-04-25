@@ -1,6 +1,4 @@
 #include <Vulkan/Graphics/RenderSystem.h>
-#include <vector>
-#include <stdexcept>
 
 lumina::RenderSystem::RenderSystem(const RenderSystemDesc& desc) : Base(desc.base), m_vkInstance(VK_NULL_HANDLE), m_logicalDevice(VK_NULL_HANDLE)
 {
